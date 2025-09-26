@@ -1,50 +1,84 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Igor Cauan</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="script" href="script.js">
-</head>
-<body>
+<html lang="pt-br" class="">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
 
-    <header>
-        <h1 class="titulo">Portfólio Igor</h1>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Links</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img
+          src="./assets/igor.png"
+          alt="Foto Igor escura."
+          
+        />
+         <!-- <p>@igorcauan</p> -->
+      </div>
 
-        <nav class="socials-media">
-            <a href="port.html" target="_blank" >Projetos</a>
-            <a href="https://www.instagram.com/_igorlinxk/#" target="_blank">Instagram</a> 
-            <a href="https://www.linkedin.com/in/igor-cauan-80b9222a3/" target="_blank">Linkedin</a> 
-            <a href="https://github.com/TTVTheAgregado" target="_blank">GitHub</a> 
-        </nav>
+      
+      <div id="social-links">
+        <a href="https://www.instagram.com/_igorlinxk/" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
 
-    </header>
+        <a href="https://github.com/TTVTheAgregado" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
 
-    
-    <main>
-        <section class="sobre-mim">
-            <h2>Sobre Mim</h2>
-            <p>Olá! Meu nome é Igor Cauan, tenho 16 anos e sou um entusiasta de tecnologia e programação. Desde cedo, sempre tive uma curiosidade natural sobre como as coisas funcionam, o que me levou a explorar o mundo da programação. Atualmente, estou focado em aprender linguagens como HTML, CSS e JavaScript, e estou ansioso para expandir meus conhecimentos em outras áreas da tecnologia.</p>
-        </section>
+        <a href="https://www.youtube.com/channel/UCSDvjKUZW6XEJsLFx5ddlXQ"target="_blank">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
 
-        <section class="habilidades">
-            <h2>Habilidades</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Trabalho em equipe</li>
-                <li>Resolução de problemas</li>
-            </ul>
-        </section>
+        <a href="https://www.linkedin.com/in/igor-cauan-80b9222a3/" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+    </div>
 
-        <section class="contato">
-            <h2>Contato</h2>
-            <p>Se você deseja entrar em contato comigo, sinta-se à vontade para me enviar um e-mail para
+    <section id="projetos">
+  <div class="projetos-header">
+    <h2>Meus Projetos</h2>
+    <div id="switch" onclick="toggleMode()">
+      <button></button>
+      <span></span>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Catholic Chat</h3>
+    <p>Descrição curta do projeto</p>
+  </div>
+  <div class="card">
+    <h3>Projeto 2</h3>
+    <p>Descrição curta do projeto</p>
+  </div>
+</section>
 
     <footer>
-        <p>&copy; 2025 Portfólio Igor Cauan. Todos os direitos reservados.</p>
+        Todos os direitos reservados | 2025 ®
+        <a href="#" target="_blank">
+          Igor Cauan | Dev
+        </a>
     </footer>
-</body>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="./script.js"></script>
+  </body>
 </html>
